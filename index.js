@@ -80,6 +80,7 @@ app.get("/listRooms", (req, res) => {
 
 app.get("/", (req, res) => {
   console.log("Welcome To Hall Booking");
+  res.send("Welcome To Hall Booking")
 
 });
 app.get("/", (req, res) => {
